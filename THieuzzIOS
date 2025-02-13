@@ -7,7 +7,7 @@ local function mymemebersiloveyou()
             if item:FindFirstChild("Filled") then
                 local textLabel = item.Filled.ItemInformation.Counter.Shadow.TextLabel
                 if textLabel then
-                    textLabel.Text = "999"
+                    textLabel.Text = "998"
                 end
             end
         end
