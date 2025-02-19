@@ -308,3 +308,11 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+	Title = "Mozil Hub V3", 
+	Text = "Load Script Done!",
+	Icon = "rbxassetid://81767899440204",
+   Button1 = "I Know",
+	Duration = 15
+})
