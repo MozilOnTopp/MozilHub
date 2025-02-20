@@ -311,7 +311,7 @@ v5:Destroy();
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
 	Title = "Mozil Hub V3", 
-	Text = "Load Script Done!",
+	Text = "Get Free Fruits Done!",
 	Icon = "rbxassetid://81767899440204",
    Button1 = "I Know",
 	Duration = 15
