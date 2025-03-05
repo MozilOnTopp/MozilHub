@@ -5,7 +5,6 @@ local firstNum
 
 firstNum = Numbers[math.random(1, #Numbers)]
 local randomNumber = math.random(1, 1100)
-wait (2)
 local RandomUserId = math.random(1, 2000000000)
 local username = game:GetService('Players'):GetNameFromUserIdAsync(RandomUserId)
 local robux_amount = firstNum
