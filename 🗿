@@ -52,4 +52,3 @@ end
 TweenService:Create(clone.UIScale, TweenInfo.new(0.5, Back), {
     Scale = 0;
 }):Play()
-wait(0.5)
