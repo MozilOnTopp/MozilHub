@@ -188,7 +188,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(io, p)
     if io.KeyCode == getgenv().setting['LockPlayersBind'] then
         if getgenv().setting['LockPlayers'] then
             loackplayerslabel.Text = "Lock Players | OFF"
-            getgenv().setting['LockPlayers'] = true
+            getgenv().setting['LockPlayers'] = false
             print(getgenv().setting['LockPlayers'])
         else
             loackplayerslabel.Text = "Lock Players | ON"
