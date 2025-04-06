@@ -121,7 +121,7 @@ HealthgreenCorner.Parent = Healthgreen
 function updateCircle(Fov,colorCircle)
    if circle.__OBJECT_EXISTS then
        circle.Transparency = 1
-       circle.Visible = true
+       circle.Visible = false
        circle.Thickness = 2
        circle.Color = colorCircle
        circle.NumSides = 100
